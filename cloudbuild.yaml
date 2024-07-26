@@ -12,7 +12,7 @@ steps:
 
   # Entrypoint, timeout and environment variables
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-    entrypoint: 'gcloud'
+    entrypoint: 'batch'
     timeout: 240s
     args: ['compute', 'instances', 
            'create-with-container', 'my-vm-name',
