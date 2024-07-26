@@ -39,4 +39,4 @@ final as (
 )
 
 select * from final
--- print
+
